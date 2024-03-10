@@ -1,0 +1,229 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+    opacity: 0.9;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Name Details of Candidate */
+.name{
+    width: 100%;
+    height:auto;
+    display:flex;
+    padding:3px;
+}
+.Fname1{
+    padding: 20px;
+    width: 33%;
+    height: auto;
+}
+#Fname{
+    width: auto;
+    height: auto;
+    border: rgba(207, 198, 198, 0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color:rgb(245, 14, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.middle1{
+    padding: 20px;
+    width: 33%;
+    height: auto;
+}
+#middle{
+    width: auto;
+    height: auto;
+    border: rgba(207, 198, 198, 0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color:rgb(245, 14, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.Lname1{
+    padding: 20px;
+    width: 33%;
+    height: auto;
+}
+#Lname{
+    width: auto;
+    height: auto;
+    border: rgba(207, 198, 198, 0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color:rgb(245, 5, 5);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* Details of Date of Birth and Date of Joining */
+.date{
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding: 3px;
+}
+.birth{
+    padding: 0px 20px;
+    width: 50%;
+    height: auto;
+}
+#DOB{
+    width: 50%;
+    height: auto;
+    border:rgba(207,198,198,0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color: rgb(245, 5, 5);
+    font-weight: bold;
+}
+.joining{
+    padding: 0px 20px;
+    width: 50%;
+    height: auto;
+}
+#DOJ{
+    width: 50%;
+    height: auto;
+    border:rgba(207,198,198,0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color: rgb(245, 5, 5);
+    font-weight: bold;
+}
+/* Personal details of Candidate */
+.candidate_details{
+    padding: 3px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.father1{
+    padding: 20px;
+    width: 33%;
+    height: auto;
+}
+#father{
+    width: auto;
+    height: auto;
+    border: rgba(207, 198, 198, 0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color:rgb(245, 14, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.mother1{
+    padding: 20px;
+    width: 33%;
+    height: auto;
+}
+#mother{
+    width: auto;
+    height: auto;
+    border: rgba(207, 198, 198, 0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color:rgb(245, 14, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.tel{
+    padding: 20px;
+    width: 33%;
+    height: auto;
+}
+#M_number{
+    width: auto;
+    height: auto;
+    border: rgba(207, 198, 198, 0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color:rgb(245, 14, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* Gender Details */
+.gender1{
+    padding: 20px;
+    width: 20%;
+    height: auto;
+}
+#gender{
+    width: auto;
+    height: auto;
+    border: rgba(207, 198, 198, 0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color:rgb(245, 14, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* Address details of the Candidate */
+.address{
+    display: flex;
+    width: 50%;
+    height: auto;
+    padding: 3px;
+}
+.permanent{
+    padding: 20px;
+    width: 50%;
+    height: auto;
+}
+#address1{
+    width: auto;
+    height: auto;
+    border: rgba(207, 198, 198, 0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color:rgb(245, 14, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.communication{
+    padding: 20px;
+    width: 50%;
+    height: auto;
+}
+#address2{
+    width: auto;
+    height: auto;
+    border: rgba(207, 198, 198, 0.432) 2px solid;
+    border-radius: 7px;
+    background-color: #86d407;
+    color:rgb(245, 14, 6);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.button{
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    text-align: center;
+}
+.submit_button{
+    width: 150px;
+    height: auto;
+    border: 2px yellow solid;
+    border-radius: 50%;
+    background-color: darkred;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+.reset_form{
+    width: 150px;
+    height: auto;
+    border: 2px yellow solid;
+    border-radius: 50%;
+    background-color: darkred;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}

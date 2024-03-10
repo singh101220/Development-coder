@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Admission Form</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+    </head>
+    <body>
+        <!-- Structure of admission form -->
+        <form action="addmission_form.php" method="get">
+            <div class="name">
+                <!-- Name Details of candidate -->
+                <div class="Fname1">
+                    <label for="Fname">First Name :</label>
+                    <input type="text" name="First Name" id="Fname">
+                </div>
+                <div class="middle1">
+                    <label for="middle">Middle Name :</label>
+                    <input type="text" name="Middle's Name" id="middle">
+                </div>
+                <div class="Lname1">
+                    <label for="Lname">Last Name :</label>
+                    <input type="text" name="Last Name" id="Lname">
+                </div>
+            </div>
+            <!-- Details of Date of Birth and Date of Joining -->
+            <div class="date">
+                <div class="birth">
+                    <label for="DOB">Date of Birth :</label>
+                    <input type="date" name="Date of Birth" id="DOB">
+                </div>
+                <div class="joining">
+                    <label for="DOJ">Date of Joining :</label>
+                    <input type="date" name="Date of joining" id="DOJ">
+                </div>
+                
+            </div>
+            <!-- Personal details of candidate -->
+            <div class="candidate_details">
+                <div class="father1">
+                    <label for="father">Father's Name :</label>
+                    <input type="text" name="Father's Name" id="father">
+                </div>
+                <div class="mother1">
+                    <label for="mother">Mother's Name</label>
+                    <input type="text" name="Mother's Name" id="mother">
+                </div>
+                <div class="tel">
+                    <label for="M_number">Mobile Number :</label>
+                    <input type="tel" name="Mobile Number" id="M_number" placeholder="+91 XXXXXXXXXX" pattern="[0-9]{10}"required>
+                </div>
+            </div>
+            <!-- Gender details -->
+            <div class="gender1">
+                <label for="gender">Gender :</label>
+                <!-- <label for="male">Male</label>
+                    <input type="checkbox" name="Male" id="male" value="Male">
+                    <label for="female">Female</label>
+                    <input type="checkbox" name="Female" id="female">
+                    <label for="others">Others</label>
+                    <input type="checkbox" name="others" id="others"><br>
+                    <input type="text" name="others" id="others"> -->
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                        <option value="gender" selected>gender</option>
+                    </select>
+                </div>
+                <!-- Address details of the Candidate -->
+                <div class="address">
+                    <div class="permanent">
+                        <label for="address1">Parmanent Address :</label><br>
+                        <textarea name="address" id="address1" cols="30" rows="10"> Enter the Permanent Address</textarea>
+                    </div>
+                    <div class="communication">
+                        <label for="address2">Communication Address :</label><br>
+                        <textarea name="adress" id="address2" cols="30" rows="10">Enter the communication address</textarea>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="button" onclick="alert('Thank You For Visit')" class="submit_button" value="Submit">Submit Form</button>
+                    <button type="button" onclick="alert('Thank you for New One')"value="Reset" class="reset_form">Reset Form</button>
+                </div>
+                
+                
+            </fieldset>
+            </form>
+    </body>
+
+    </html>
